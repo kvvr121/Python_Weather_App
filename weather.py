@@ -1,7 +1,8 @@
 # build a python weather app using tkinter that fetches data from open-meteo api (no API key required)
 import tkinter as tk
-import requests
 from tkinter import messagebox
+
+import requests
 
 def get_weather(city):
     # Using Open-Meteo API - Free, no API key required
