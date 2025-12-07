@@ -26,9 +26,10 @@ A simple and elegant weather application built with Python and Tkinter that disp
 
 ## Installation
 
-### 1. Clone or Download the Project
+### 1. Clone the Repository
 ```bash
-cd /Users/vishnureddy/Documents/Python_Weather_App
+git clone https://github.com/kvvr121/Python_Weather_App.git
+cd Python_Weather_App
 ```
 
 ### 2. Create a Virtual Environment
@@ -50,7 +51,7 @@ venv\Scripts\activate
 
 ### 4. Install Dependencies
 ```bash
-pip install requests
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -158,8 +159,10 @@ Condition: Clear sky
 ```
 Python_Weather_App/
 ├── weather.py          # Main application file
-├── venv/              # Virtual environment directory
-└── README.md          # This file
+├── requirements.txt    # Python dependencies
+├── README.md           # Project documentation
+├── .gitignore          # Git ignore file
+└── venv/               # Virtual environment directory (not tracked in git)
 ```
 
 ## Troubleshooting
